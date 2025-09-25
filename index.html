@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abbacat live - Jazz & Oldies</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="A nevem Dobos Kata, több, mint 20 éve foglalkozom énekléssel. Karrieremet az ABBA Feeling nevű tribute zenekar alapításával kezdtem, amely különböző felállásokban közel 10 évig működött. Innen „maradt rajtam” az Abbacat művésznév.">
 </head>
 
 <body>
@@ -14,7 +16,7 @@
     </header>
     <main>
         <section id="about">
-            <h1>Rólam</h1>
+            <h1 class="section-title">Rólam</h1>
             <div class="section-row">
                 <img src="assets/profile.jpg" alt="profile_image">
                 <p>
@@ -27,6 +29,7 @@
             </div>
 
             <div class="section-row">
+                <img src="assets/sing1.jpg" alt="sing1">
                 <p>
                     2015-ben kezdtem el szóló fellépéseimet, eleinte csak pop műfajban, később pedig egyre
                     inkább közeledtem a standard jazz felé. Folyamatosan újítom a repertoáromat, ami jelenleg több, mint
@@ -35,7 +38,6 @@
                     jazz
                     feldolgozásokat, de sok dalt énekelek Michael Bublé-tól, Frank Sinatra-tól is.
                 </p>
-                <img src="assets/sing1.jpg" alt="sing1">
             </div>
 
             <div class="section-row">
@@ -47,32 +49,46 @@
             </div>
         </section>
         <section id="media">
-            <h1>Zeneszámok</h1>
+            <h1 class="section-title">Zeneszámok</h1>
             <h2>Pár kiemelt alkotásom</h2>
 
-            <iframe src="https://www.youtube.com/embed/850A1Qjj8ds" title="Country roads"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div id="embeds">
+                <iframe src="https://www.youtube.com/embed/850A1Qjj8ds" title="Country roads" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <iframe src="https://www.youtube.com/embed/GT3SQx0QFKM"
-                title="Lelket vennék ft.  Ggeery AWS cover" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/GT3SQx0QFKM" title="Lelket vennék ft.  Ggeery AWS cover"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <iframe src="https://www.youtube.com/embed/G1kUryfUf-g"
-                title="Baker street cover version" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/G1kUryfUf-g" title="Baker street cover version"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
             <h2>Továbbiak</h2>
-            <p>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=fK9bWiICoiE" target="_blank">What's up!</a></li>
-                <li><a href="https://www.youtube.com/watch?v=Fquxo8hKFWs" target="_blank">Creep (Radiohead cover Karen Souza style) by
-                        Abbacat</a></li>
-            </ul>
-            </p>
+            <div class="video-flex">
+                <a href="https://www.youtube.com/watch?v=fK9bWiICoiE" target="_blank" class="video-item">
+                    <div class="thumb">
+                        <img src="https://img.youtube.com/vi/fK9bWiICoiE/hqdefault.jpg" alt="What's up!">
+                        <div class="play-button"></div>
+
+                    </div>
+                    <span>What's up!</span>
+                </a>
+                <a href="https://www.youtube.com/watch?v=Fquxo8hKFWs" target="_blank" class="video-item">
+                    <div class="thumb">
+                        <img src="https://img.youtube.com/vi/Fquxo8hKFWs/hqdefault.jpg" alt="Creep (Radiohead cover Karen Souza
+                    style) by
+                    Abbacat">
+                        <div class="play-button"></div>
+                    </div>
+                    <span>Creep <br> (Radiohead cover Karen Souza
+                        style)</span>
+                </a>
+            </div>
         </section>
         <section id="contact"></section>
     </main>
