@@ -116,6 +116,10 @@ header img {
     background-position: bottom right;*/
 }
 
+#about p {
+    text-align: justify;
+}
+
 .section-title {
   display: flex;
   align-items: center;
