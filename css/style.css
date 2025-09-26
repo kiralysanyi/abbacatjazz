@@ -84,7 +84,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100dvh;
+    height: 100lvh;
 }
 
 #hero_bg_image {
@@ -188,7 +188,7 @@ iframe {
     width: 600px;
     height: 450px;
     max-width: 100%;
-    max-height: 50dvh;
+    max-height: 50lvh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -340,7 +340,7 @@ footer {
 
     section img {
         max-width: 80dvw;
-        max-height: 30dvh;
+        max-height: 30lvh;
         object-fit: contain;
         margin: auto;
     }
