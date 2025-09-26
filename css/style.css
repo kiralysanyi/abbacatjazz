@@ -352,3 +352,27 @@ footer {
         gap: 0px;
     }
 }
+
+@media screen and (max-width: 430px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    p {
+        font-size: 1rem !important;
+    }
+
+    #contact-card a {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    header a {
+        display: none;
+    }
+}
