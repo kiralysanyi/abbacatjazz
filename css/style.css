@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../assets/fonts/CormorantGaramond-Regular.ttf");
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -18,7 +23,7 @@ body {
     background-color: rgba(35, 33, 31);
     color: rgb(255, 227, 238);
     margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Cormorant Garamond";
 }
 
 a:link,
