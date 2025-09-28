@@ -352,11 +352,15 @@ footer {
     display: none !important;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 768px) {
     .ytplayer {
     max-width: 100%;
     max-height: 200px;
 }
+
+  html {
+    font-size: 20px;
+  }
 
 
     section img {
@@ -391,8 +395,18 @@ footer {
         font-size: 1rem !important;
     }
 
+    #contact {
+        padding: 1rem;
+    }
+
     #contact-card a {
         font-size: 1.2rem !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #contact {
+        padding: 0.5rem;
     }
 }
 
